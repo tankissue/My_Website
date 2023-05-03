@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CONTACT_FORM</title>
+    <link rel="stylesheet" href="style.css">
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="theme-color" content="">
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="sidebar nav_on">  
+
+            <nav>
+                <ol>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./intro.html">My Intro</a></li>
+                    <li><a href="./service.html">Contributions</a></li>
+                    <li><a href="./blog.html">Blog</a></li>
+                    <li><a href="./contact.html">Contact Me</a></li>
+                </ol>
+                <nav>
+
+        </div>
+        <div class="main">
+            <div class="icon">
+                <img class="nav_icon" src="nav.png" alt="">
+                <img class="cross_icon" src="cr.png" alt="">
+            </div>
+
+            <div class="contact_form">
+                <h1>Contact me for work or enquiry</h1>
+                <form method="POST" name="contactform" action="form_php.php" autocomplete="off">
+                    <div class="mb-3">
+                        <label for="name" class="form-label" >Name</label>
+                        <input type="name" class="form-control" id="name" placeholder="Enter Full Name">
+                    </div>
+
+                    <div class="floating">
+                        <p class="tes"></p>
+                        <textarea class="form-control" placeholder="Ask any Query here" id="floating" style="height: 300px"></textarea>
+                        <label for="floating" name="floating"></label>
+                      </div>
+
+                    <div class="mb-3">
+                        <label for="email" class="form-label" name="email">Email address</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp"  placeholder="Email">
+                        <div id="emailHelp" class="form-text">✨ I'll never share your personal info with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="phone" class="form-label" name="phone">Phone Number</label>
+                        <input type="phone" class="form-control" id="phone"  placeholder="Phone no.">
+                    </div>
+                  
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+
+
+
+
+        </div>
+
+
+
+    </div>
+
+
+    </div>
+    </div>
+   
+    <script src="script.js"></script>
+</body>
+
+</html>

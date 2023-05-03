@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../web application/htdocs/web"
+		}
+	],
+	"settings": {}
+}
